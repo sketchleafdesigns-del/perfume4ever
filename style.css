@@ -83,7 +83,9 @@ nav.main-nav a:hover{color:var(--gold);}
 .menu-toggle::after{top:25px;}
 
 /* Mobile nav drawer */
-.mobile-nav{position:fixed;inset:0;background:var(--noir);z-index:150;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;transform:translateY(-100%);transition:transform .35s ease;}
+.mobile-nav{position:fixed;inset:0;background:var(--noir);z-index:150;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;transform:translateY(-100%);transition:transform .35s ease; transform: translateY(0%);
+  height: 100vh;
+  width: 100vw;}
 .mobile-nav.open{transform:translateY(0);}
 .mobile-nav a{font-family:var(--display);font-size:28px;color:var(--cream);}
 .mobile-nav a:hover{color:var(--gold);}
